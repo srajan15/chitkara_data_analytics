@@ -94,13 +94,6 @@ SELECT name, marks FROM students
 ORDER BY marks DESC
 LIMIT 3;
 
--- MySQL LIMIT with OFFSET: skip first 3 rows, return next 3 (pagination)
--- Useful for showing page 2 of results
-SELECT name, marks FROM students
-ORDER BY marks DESC
-LIMIT 3 OFFSET 3;
-
-
 -- ============================================================
 -- U — UPDATE: Modify existing records
 -- ============================================================
